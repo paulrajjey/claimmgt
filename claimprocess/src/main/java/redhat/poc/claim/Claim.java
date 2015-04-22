@@ -11,10 +11,17 @@ public class Claim implements java.io.Serializable
 
    @org.kie.api.definition.type.Label(value = "claim Id")
    private java.lang.String id;
+
    private java.lang.String documentId;
+
    @org.kie.api.definition.type.Label(value = "claim date")
    private java.util.Date date;
+
    private double claimAmount;
+
+   private redhat.poc.claim.ProviderInfo providerInfo;
+
+   private redhat.poc.claim.Address address;
 
    public Claim()
    {
@@ -60,13 +67,37 @@ public class Claim implements java.io.Serializable
       this.claimAmount = claimAmount;
    }
 
+   public redhat.poc.claim.ProviderInfo getProviderInfo()
+   {
+      return this.providerInfo;
+   }
+
+   public void setProviderInfo(redhat.poc.claim.ProviderInfo providerInfo)
+   {
+      this.providerInfo = providerInfo;
+   }
+
+   public redhat.poc.claim.Address getAddress()
+   {
+      return this.address;
+   }
+
+   public void setAddress(redhat.poc.claim.Address address)
+   {
+      this.address = address;
+   }
+
    public Claim(java.lang.String id, java.lang.String documentId,
-         java.util.Date date, double claimAmount)
+         java.util.Date date, double claimAmount,
+         redhat.poc.claim.ProviderInfo providerInfo,
+         redhat.poc.claim.Address address)
    {
       this.id = id;
       this.documentId = documentId;
       this.date = date;
       this.claimAmount = claimAmount;
+      this.providerInfo = providerInfo;
+      this.address = address;
    }
 
 }
