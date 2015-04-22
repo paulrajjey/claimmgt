@@ -10,8 +10,66 @@
   </descriptionCol>
   <metadataCols/>
   <attributeCols/>
-  <conditionPatterns/>
-  <actionCols/>
+  <conditionPatterns>
+    <Pattern52>
+      <factType>Claim</factType>
+      <boundName>claim</boundName>
+      <isNegated>false</isNegated>
+      <conditions>
+        <condition-column52>
+          <typedDefaultValue>
+            <valueString></valueString>
+            <dataType>STRING</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
+          <hideColumn>true</hideColumn>
+          <width>-1</width>
+          <header>Claim type</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>type</factField>
+          <fieldType>String</fieldType>
+          <operator>==</operator>
+          <valueList>A1001,B1001,C1001,D1001</valueList>
+          <parameters/>
+        </condition-column52>
+      </conditions>
+      <window>
+        <parameters/>
+      </window>
+    </Pattern52>
+  </conditionPatterns>
+  <actionCols>
+    <set-field-col52>
+      <typedDefaultValue>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
+      <hideColumn>true</hideColumn>
+      <width>-1</width>
+      <header>Due Date</header>
+      <boundName>claim</boundName>
+      <factField>dueDate</factField>
+      <type>String</type>
+      <valueList>d2,3d,4d,5d</valueList>
+      <update>false</update>
+    </set-field-col52>
+    <set-field-col52>
+      <typedDefaultValue>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
+      <hideColumn>false</hideColumn>
+      <width>-1</width>
+      <header>Claim Worker</header>
+      <boundName>claim</boundName>
+      <factField>claimworker</factField>
+      <type>String</type>
+      <valueList>claimGroup1,claimGroup2,claimGroup3,claimGroup4</valueList>
+      <update>false</update>
+    </set-field-col52>
+  </actionCols>
   <auditLog>
     <filter class="org.drools.guvnor.client.modeldriven.dt52.auditlog.DecisionTableAuditLogFilter">
       <acceptedTypes>
