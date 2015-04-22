@@ -3,102 +3,77 @@
 <property name="name" value="claimReview-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="claim_address" type="Subform" id="695734739">
+<field position="2" name="claim_claimAmount" type="InputTextPrimitiveDouble" id="339101875">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;address (claim)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="claimTask/address"/>
-<property name="fieldClass" value="java.lang.Object"/>
-</field>
-<field position="10" name="claim_member" type="Subform" id="46620874">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;member (claim)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="claimTask/member"/>
-<property name="fieldClass" value="java.lang.Object"/>
-</field>
-<field position="13" name="claim_type" type="InputText" id="1208747525">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;type (claim)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="claimTask/type"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="1" name="claim_claimAmount" type="InputTextPrimitiveDouble" id="339101875">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;claimAmount (claim)quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Claim Amountquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="claimTask/claimAmount"/>
 <property name="fieldClass" value="double"/>
 </field>
-<field position="2" name="claim_claimsupervisor" type="InputText" id="1130485530">
+<field position="3" name="claim_date" type="InputDate" id="184807582">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;claimsupervisor (claim)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="claimTask/claimsupervisor"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="3" name="claim_claimworker" type="InputText" id="1039117341">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;claimworker (claim)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="claimTask/claimworker"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="6" name="claim_dueDate" type="InputText" id="1801129436">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;dueDate (claim)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="claimTask/dueDate"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="4" name="claim_date" type="InputDate" id="184807582">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;date (claim)quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;datequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="claimTask/date"/>
 <property name="fieldClass" value="java.util.Date"/>
 </field>
-<field position="5" name="claim_documentId" type="InputText" id="761638090">
+<field position="4" name="claim_documentId" type="InputText" id="761638090">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;documentId (claim)quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;DocumentIdquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
 <property name="inputBinding" value="claimTask/documentId"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="7" name="claim_errorCode" type="InputText" id="1307186496">
+<field position="0" name="claim_id" type="InputText" id="937224572">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;errorCode (claim)quot;"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;idquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
-<property name="inputBinding" value="claimTask/errorCode"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="11" name="claim_providerInfo" type="Subform" id="247479050">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;providerInfo (claim)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="claimTask/providerInfo"/>
-<property name="fieldClass" value="java.lang.Object"/>
-</field>
-<field position="12" name="claim_status" type="InputText" id="747130245">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;status (claim)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="claimTask/status"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="9" name="claim_id" type="InputText" id="937224572">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;id (claim)quot;"/>
-<property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
 <property name="inputBinding" value="claimTask/id"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="8" name="claim_errorType" type="InputText" id="2110606379">
+<field position="5" name="claim_member" type="Subform" id="46620874">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;errorType (claim)quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Member Infoquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
-<property name="inputBinding" value="claimTask/errorType"/>
+<property name="inputBinding" value="claimTask/member"/>
+<property name="defaultSubform" value="process-memberform.form"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<field position="6" name="claim_providerInfo" type="Subform" id="247479050">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;providerInfoquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="claimTask/providerInfo"/>
+<property name="defaultSubform" value="process-providerForm.form"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<field position="1" name="claim_type" type="InputText" id="1208747525">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;typequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="claimTask/type"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="claimTask" name="#0000A0" type="dataModelerEntry" outId="" value="redhat.poc.claim.Claim" id="claim"/>
