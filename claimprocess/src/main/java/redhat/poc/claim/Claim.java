@@ -35,6 +35,8 @@ public class Claim implements java.io.Serializable
 
    private java.lang.String errorCode;
 
+   private java.lang.String type;
+
    public Claim()
    {
    }
@@ -159,13 +161,23 @@ public class Claim implements java.io.Serializable
       this.errorCode = errorCode;
    }
 
+   public java.lang.String getType()
+   {
+      return this.type;
+   }
+
+   public void setType(java.lang.String type)
+   {
+      this.type = type;
+   }
+
    public Claim(java.lang.String id, java.lang.String documentId,
          java.util.Date date, double claimAmount,
          redhat.poc.claim.ProviderInfo providerInfo,
          redhat.poc.claim.Address address, redhat.poc.claim.Member member,
          java.lang.String claimworker, java.lang.String claimsupervisor,
          java.lang.String status, java.lang.String errorType,
-         java.lang.String errorCode)
+         java.lang.String errorCode, java.lang.String type)
    {
       this.id = id;
       this.documentId = documentId;
@@ -179,6 +191,7 @@ public class Claim implements java.io.Serializable
       this.status = status;
       this.errorType = errorType;
       this.errorCode = errorCode;
+      this.type = type;
    }
 
 }
