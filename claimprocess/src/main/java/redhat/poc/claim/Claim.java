@@ -25,6 +25,16 @@ public class Claim implements java.io.Serializable
 
    private redhat.poc.claim.Member member;
 
+   private java.lang.String claimworker;
+
+   private java.lang.String claimsupervisor;
+
+   private java.lang.String status;
+
+   private java.lang.String errorType;
+
+   private java.lang.String errorCode;
+
    public Claim()
    {
    }
@@ -99,10 +109,63 @@ public class Claim implements java.io.Serializable
       this.member = member;
    }
 
+   public java.lang.String getClaimworker()
+   {
+      return this.claimworker;
+   }
+
+   public void setClaimworker(java.lang.String claimworker)
+   {
+      this.claimworker = claimworker;
+   }
+
+   public java.lang.String getClaimsupervisor()
+   {
+      return this.claimsupervisor;
+   }
+
+   public void setClaimsupervisor(java.lang.String claimsupervisor)
+   {
+      this.claimsupervisor = claimsupervisor;
+   }
+
+   public java.lang.String getStatus()
+   {
+      return this.status;
+   }
+
+   public void setStatus(java.lang.String status)
+   {
+      this.status = status;
+   }
+
+   public java.lang.String getErrorType()
+   {
+      return this.errorType;
+   }
+
+   public void setErrorType(java.lang.String errorType)
+   {
+      this.errorType = errorType;
+   }
+
+   public java.lang.String getErrorCode()
+   {
+      return this.errorCode;
+   }
+
+   public void setErrorCode(java.lang.String errorCode)
+   {
+      this.errorCode = errorCode;
+   }
+
    public Claim(java.lang.String id, java.lang.String documentId,
          java.util.Date date, double claimAmount,
          redhat.poc.claim.ProviderInfo providerInfo,
-         redhat.poc.claim.Address address, redhat.poc.claim.Member member)
+         redhat.poc.claim.Address address, redhat.poc.claim.Member member,
+         java.lang.String claimworker, java.lang.String claimsupervisor,
+         java.lang.String status, java.lang.String errorType,
+         java.lang.String errorCode)
    {
       this.id = id;
       this.documentId = documentId;
@@ -111,6 +174,11 @@ public class Claim implements java.io.Serializable
       this.providerInfo = providerInfo;
       this.address = address;
       this.member = member;
+      this.claimworker = claimworker;
+      this.claimsupervisor = claimsupervisor;
+      this.status = status;
+      this.errorType = errorType;
+      this.errorCode = errorCode;
    }
 
 }
