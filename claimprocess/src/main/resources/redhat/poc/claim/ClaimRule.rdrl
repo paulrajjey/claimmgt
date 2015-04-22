@@ -5,5 +5,8 @@ import java.lang.Number;
 rule "ClaimRule"
 	dialect "mvel"
 	when
+		claim : Claim( type == "A1001" )
 	then
+		claim.setDueDate( "2d" );
+		claim.setClaimworker( "claimGroup1" );
 end
