@@ -1,0 +1,105 @@
+
+<form id="201932943">
+<property name="name" value="claimprocess.ClaimProcess-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="7" name="claim_errorCode" type="InputText" id="1256041701">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;errorCode (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="claim/errorCode"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="claim_claimsupervisor" type="InputText" id="1478789349">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;claimsupervisor (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="claim/claimsupervisor"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="claim_date" type="InputDate" id="66578397">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;date (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="claim/date"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="6" name="claim_dueDate" type="InputText" id="2085365635">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;dueDate (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="claim/dueDate"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="8" name="claim_errorType" type="InputText" id="1413988271">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;errorType (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="claim/errorType"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="12" name="claim_status" type="InputText" id="1089958369">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;status (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="claim/status"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="9" name="claim_id" type="InputText" id="990023630">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;id (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="claim/id"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="claim_claimAmount" type="InputTextPrimitiveDouble" id="883709171">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;claimAmount (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="claim/claimAmount"/>
+<property name="fieldClass" value="double"/>
+</field>
+<field position="11" name="claim_providerInfo" type="Subform" id="1807214828">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;providerInfo (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="claim/providerInfo"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<field position="3" name="claim_claimworker" type="InputText" id="1225156106">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;claimworker (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="claim/claimworker"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="10" name="claim_member" type="Subform" id="1375389836">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;member (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="claim/member"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<field position="13" name="claim_type" type="InputText" id="365090383">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;type (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="claim/type"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="claim_address" type="Subform" id="1956582527">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;address (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="claim/address"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<field position="5" name="claim_documentId" type="InputText" id="576786040">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;documentId (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="claim/documentId"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#0000A0" type="dataModelerEntry" outId="claim" value="redhat.poc.claim.Claim" id="claim"/>
+</form>
