@@ -9,12 +9,12 @@ public class Claim implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label(value = "claim Id")
+   @org.kie.api.definition.type.Label("claim Id")
    private java.lang.String id;
 
    private java.lang.String documentId;
 
-   @org.kie.api.definition.type.Label(value = "claim date")
+   @org.kie.api.definition.type.Label("claim date")
    private java.util.Date date;
 
    private double claimAmount;
@@ -22,6 +22,8 @@ public class Claim implements java.io.Serializable
    private redhat.poc.claim.ProviderInfo providerInfo;
 
    private redhat.poc.claim.Address address;
+
+   private redhat.poc.claim.Member member;
 
    public Claim()
    {
@@ -87,10 +89,20 @@ public class Claim implements java.io.Serializable
       this.address = address;
    }
 
+   public redhat.poc.claim.Member getMember()
+   {
+      return this.member;
+   }
+
+   public void setMember(redhat.poc.claim.Member member)
+   {
+      this.member = member;
+   }
+
    public Claim(java.lang.String id, java.lang.String documentId,
          java.util.Date date, double claimAmount,
          redhat.poc.claim.ProviderInfo providerInfo,
-         redhat.poc.claim.Address address)
+         redhat.poc.claim.Address address, redhat.poc.claim.Member member)
    {
       this.id = id;
       this.documentId = documentId;
@@ -98,6 +110,7 @@ public class Claim implements java.io.Serializable
       this.claimAmount = claimAmount;
       this.providerInfo = providerInfo;
       this.address = address;
+      this.member = member;
    }
 
 }
