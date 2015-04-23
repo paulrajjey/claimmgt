@@ -65,7 +65,7 @@
       <boundName>claim</boundName>
       <factField>dueDate</factField>
       <type>String</type>
-      <valueList>d2,3d,4d,5d</valueList>
+      <valueList>2d,3d,4d,5d</valueList>
       <update>false</update>
     </set-field-col52>
     <set-field-col52>
@@ -140,7 +140,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>d2</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -173,7 +173,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>3d</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
