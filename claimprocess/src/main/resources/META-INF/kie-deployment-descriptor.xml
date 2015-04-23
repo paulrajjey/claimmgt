@@ -29,7 +29,7 @@
             <name>Service Task</name>
         </work-item-handler>
         <work-item-handler>
-            <resolver>enter resolver type</resolver>
+            <resolver>mvel</resolver>
             <identifier>org.jbpm.process.workitem.email.EmailWorkItemHandler(smtp.redhat.com,25)</identifier>
             <parameters/>
             <name>Email</name>
