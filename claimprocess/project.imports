@@ -4,9 +4,6 @@
       <import>
         <type>java.lang.Number</type>
       </import>
-      <import>
-        <type>org.jbpm.process.workitem.email.EmailWorkItemHandler</type>
-      </import>
     </imports>
   </imports>
   <version>1.0</version>
