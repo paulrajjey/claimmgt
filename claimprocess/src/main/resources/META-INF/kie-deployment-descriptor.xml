@@ -29,9 +29,24 @@
             <name>Service Task</name>
         </work-item-handler>
         <work-item-handler>
-            <resolver>mvel</resolver>
-            <identifier>new org.jbpm.process.instance.impl.demo.SystemOutWorkItemHandler()</identifier>
-            <parameters/>
+            <resolver>reflection</resolver>
+            <identifier>new org.jbpm.process.workitem.email.EmailWorkItemHandler()</identifier>
+            <parameters>
+                <parameter xsi:type="objectModel">
+                    <resolver>reflection</resolver>
+                    <identifier>java.lang.String</identifier>
+                    <parameters>
+                        <parameter xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">smtp.redhat.com</parameter>
+                    </parameters>
+                </parameter>
+                <parameter xsi:type="objectModel">
+                    <resolver>reflection</resolver>
+                    <identifier>java.lang.String</identifier>
+                    <parameters>
+                        <parameter xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">25</parameter>
+                    </parameters>
+                </parameter>
+            </parameters>
             <name>Email</name>
         </work-item-handler>
         <work-item-handler>
