@@ -5,6 +5,7 @@ import java.lang.Number;
 rule "specialClaimRule"
 	dialect "mvel"
 	ruleflow-group "special"
+	salience 100
 	when
 		claim : Claim( claimAmount > 10000.0 )
 	then
