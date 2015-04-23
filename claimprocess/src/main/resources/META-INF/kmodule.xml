@@ -1,1 +1,9 @@
-<kmodule xmlns="http://jboss.org/kie/6.0.0/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+<kmodule xmlns="http://jboss.org/kie/6.0.0/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <kbase name="claimkbase" default="true" eventProcessingMode="stream" equalsBehavior="identity">
+    <ksession name="claimksession" type="stateful" default="true" clockType="realtime">
+      <workItemHandlers>
+        <workItemHandler type="org.jbpm.process.workitem.email.EmailWorkItemHandler(&quot;smtp.redhat.com&quot;,&quot;25&quot;)" name="Email"/>
+      </workItemHandlers>
+    </ksession>
+  </kbase>
+</kmodule>
