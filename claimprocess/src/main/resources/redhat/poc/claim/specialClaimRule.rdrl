@@ -8,5 +8,5 @@ rule "specialClaimRule"
 	when
 		claim : Claim( claimAmount > 10000.0 )
 	then
-		kcontext.signalEvent("specialClaim", claim, kcontext.getProcessInstance().getId())
+		kcontext.signalEvent("specialClaim", claim, kcontext.getProcessInstance().getId());
 end
