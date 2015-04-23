@@ -1,0 +1,9 @@
+package redhat.poc.claim;
+
+import java.lang.Number;
+
+rule "specialClaimRule"
+	dialect "mvel"
+	when
+	then
+end
