@@ -5,5 +5,7 @@ import java.lang.Number;
 rule "specialClaimRule"
 	dialect "mvel"
 	when
+		claim : Claim( claimAmount > 10000.0 )
 	then
+		ksession.signalEvent("specialClaim", claim, kcontext.getProcessInstance().getId())
 end
