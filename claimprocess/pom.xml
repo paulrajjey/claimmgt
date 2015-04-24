@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>redhat.poc.claim</groupId>
   <artifactId>claimprocess</artifactId>
-  <version>1.5</version>
+  <version>1.6</version>
   <name>claimprocess</name>
   <build>
     <plugins>
