@@ -1,0 +1,14 @@
+
+<form id="884000618">
+<property name="name" value="claimDocmgt.alfrescodoc-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="doc" type="InputText" id="1889581401">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;doc (doc)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="doc"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#0000A0" type="basicType" outId="doc" value="java.lang.String" id="doc"/>
+</form>
