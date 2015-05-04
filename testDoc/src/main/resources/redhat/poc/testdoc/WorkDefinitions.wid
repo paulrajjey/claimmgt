@@ -87,6 +87,7 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
     ],
     "category" : "Camel",
     "displayName" : "SFTP",
+    "icon" : "defaultemailicon.gif",
     "customEditor" : "org.drools.eclipse.flow.common.editor.editpart.work.SampleCustomEditor"
   ]
   ,
@@ -103,6 +104,7 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
     ],
     "category" : "Camel",
     "displayName" : "FTPS",
+    "icon" : "defaultemailicon.gif",
     "customEditor" : "org.drools.eclipse.flow.common.editor.editpart.work.SampleCustomEditor"
   ]
   ,
@@ -115,6 +117,7 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
     ],
     "category" : "Camel",
     "displayName" : "File",
+    "icon" : "defaultemailicon.gif",
     "customEditor" : "org.drools.eclipse.flow.common.editor.editpart.work.SampleCustomEditor"
   ]
   ,
@@ -126,6 +129,7 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
     ],
     "category" : "Camel",
     "displayName" : "JMS",
+    "icon" : "defaultemailicon.gif",
     "customEditor" : "org.drools.eclipse.flow.common.editor.editpart.work.SampleCustomEditor"
   ]
   ,
@@ -137,6 +141,7 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
     ],
     "category" : "Camel",
     "displayName" : "XSLT",
+    "icon" : "defaultemailicon.gif",
     "customEditor" : "org.drools.eclipse.flow.common.editor.editpart.work.SampleCustomEditor"
   ]
   ,
@@ -151,6 +156,7 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
     ],
     "category" : "Camel",
     "displayName" : "CXF",
+    "icon" : "defaultemailicon.gif",
     "customEditor" : "org.drools.eclipse.flow.common.editor.editpart.work.SampleCustomEditor"
   ]
   ,
@@ -162,6 +168,7 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
     ],
     "category" : "Camel",
     "displayName" : "Generic",
+    "icon" : "defaultemailicon.gif",
     "customEditor" : "org.drools.eclipse.flow.common.editor.editpart.work.SampleCustomEditor"
   ],
   
