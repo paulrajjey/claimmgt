@@ -3,6 +3,28 @@
 <property name="name" value="multidocReview-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name="docs_additionalDocs" bag-type="java.lang.String" type="MultipleSubform" id="547497753">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;additionalDocs (docs)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="docsin/additionalDocs"/>
+<property name="outputBinding" value="docsout/additionalDocs"/>
+<property name="defaultSubform" value="docform.form"/>
+<property name="previewSubform" value="docform.form"/>
+<property name="tableSubform" value="docform.form"/>
+<property name="newItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;add new claimquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="addItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;add new claimquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="cancelItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;cancel new claimquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="deleteItems" value="true"/>
+<property name="updateItems" value="true"/>
+<property name="visualizeItems" value="true"/>
+<property name="hideCreateItem" value="false"/>
+<property name="expanded" value="true"/>
+<property name="enableTableEnterData" value="true"/>
+<property name="fieldClass" value="java.util.List"/>
+</field>
 <field position="1" name="docs_docid" type="InputText" id="327598611">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;docid (docs)quot;"/>
@@ -10,14 +32,6 @@
 <property name="inputBinding" value="docsin/docid"/>
 <property name="outputBinding" value="docsout/docid"/>
 <property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="0" name="docs_additionalDocs" bag-type="java.lang.String" type="MultipleInput" id="547497753">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;additionalDocs (docs)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="docsin/additionalDocs"/>
-<property name="outputBinding" value="docsout/additionalDocs"/>
-<property name="fieldClass" value="java.util.List"/>
 </field>
 <dataHolder inputId="docsin" name="#0000A0" type="dataModelerEntry" outId="docsout" value="redhat.poc.testdoc.ClaimsDoc" id="docs"/>
 </form>
