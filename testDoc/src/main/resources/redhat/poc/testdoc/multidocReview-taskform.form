@@ -1,0 +1,23 @@
+
+<form id="712701707">
+<property name="name" value="multidocReview-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="1" name="docs_docid" type="InputText" id="327598611">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;docid (docs)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="docsin/docid"/>
+<property name="outputBinding" value="docsout/docid"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="docs_additionalDocs" bag-type="java.lang.String" type="MultipleInput" id="547497753">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;additionalDocs (docs)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="docsin/additionalDocs"/>
+<property name="outputBinding" value="docsout/additionalDocs"/>
+<property name="fieldClass" value="java.util.List"/>
+</field>
+<dataHolder inputId="docsin" name="#0000A0" type="dataModelerEntry" outId="docsout" value="redhat.poc.testdoc.ClaimsDoc" id="docs"/>
+</form>
