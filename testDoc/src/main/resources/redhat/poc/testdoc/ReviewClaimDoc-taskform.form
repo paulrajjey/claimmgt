@@ -1,0 +1,15 @@
+
+<form id="1569430558">
+<property name="name" value="ReviewClaimDoc-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="dgmt" type="Document" id="797709231">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;docinput (dgmt)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="docinput"/>
+<property name="outputBinding" value="docout"/>
+<property name="fieldClass" value="org.jbpm.document.Document"/>
+</field>
+<dataHolder inputId="docinput" name="#0000A0" type="basicType" outId="docout" value="org.jbpm.document.Document" id="dgmt"/>
+</form>
