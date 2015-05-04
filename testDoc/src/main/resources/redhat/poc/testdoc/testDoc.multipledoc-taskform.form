@@ -19,7 +19,7 @@
 <property name="deleteItems" value="true"/>
 <property name="updateItems" value="true"/>
 <property name="visualizeItems" value="true"/>
-<property name="hideCreateItem" value="true"/>
+<property name="hideCreateItem" value="false"/>
 <property name="expanded" value="true"/>
 <property name="enableTableEnterData" value="true"/>
 <property name="customFieldType" value="org.jbpm.integration.ecm.FileCustomType"/>
