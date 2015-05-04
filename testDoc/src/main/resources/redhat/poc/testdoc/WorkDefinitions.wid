@@ -70,6 +70,7 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
     ],
     "category" : "Camel",
     "displayName" : "FTP",
+    "icon" : "defaultemailicon.gif",
     "customEditor" : "org.drools.eclipse.flow.common.editor.editpart.work.SampleCustomEditor"
   ]
   ,
