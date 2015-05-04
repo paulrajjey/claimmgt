@@ -9,36 +9,7 @@
         <marshalling-strategy>
             <resolver>reflection</resolver>
             <identifier>org.jbpm.document.marshalling.DocumentMarshallingStrategy</identifier>
-            <parameters>
-                <parameter xsi:type="objectModel">
-                    <resolver>reflection</resolver>
-                    <identifier>java.lang.String</identifier>
-                    <parameters>
-                        <parameter xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">admin</parameter>
-                    </parameters>
-                </parameter>
-                <parameter xsi:type="objectModel">
-                    <resolver>reflection</resolver>
-                    <identifier>java.lang.String</identifier>
-                    <parameters>
-                        <parameter xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">admin</parameter>
-                    </parameters>
-                </parameter>
-                <parameter xsi:type="objectModel">
-                    <resolver>reflection</resolver>
-                    <identifier>java.lang.String</identifier>
-                    <parameters>
-                        <parameter xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">http://localhost:8180/alfresco/cmisatom</parameter>
-                    </parameters>
-                </parameter>
-                <parameter xsi:type="objectModel">
-                    <resolver>reflection</resolver>
-                    <identifier>java.lang.String</identifier>
-                    <parameters>
-                        <parameter xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">6b2dd4ef-15fe-451f-98d8-25e4c478b215</parameter>
-                    </parameters>
-                </parameter>
-            </parameters>
+            <parameters/>
         </marshalling-strategy>
     </marshalling-strategies>
     <event-listeners/>
