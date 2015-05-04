@@ -40,6 +40,11 @@
                 </parameter>
             </parameters>
         </marshalling-strategy>
+        <marshalling-strategy>
+            <resolver>reflection</resolver>
+            <identifier>org.jbpm.document.marshalling.DocumentMarshallingStrategy</identifier>
+            <parameters/>
+        </marshalling-strategy>
     </marshalling-strategies>
     <event-listeners/>
     <task-event-listeners/>
