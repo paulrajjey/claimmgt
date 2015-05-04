@@ -45,13 +45,6 @@
                         <parameter xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">http://localhost:8180/alfresco/cmisatom/content?id</parameter>
                     </parameters>
                 </parameter>
-                <parameter xsi:type="objectModel">
-                    <resolver>reflection</resolver>
-                    <identifier>java.lang.String</identifier>
-                    <parameters>
-                        <parameter xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">OVERRIDE</parameter>
-                    </parameters>
-                </parameter>
             </parameters>
         </marshalling-strategy>
     </marshalling-strategies>
