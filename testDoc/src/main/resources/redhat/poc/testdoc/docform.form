@@ -5,10 +5,15 @@
 <property name="status" value="0"/>
 <field position="0" name="claimDoc" type="CustomInput" id="1836051140">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;input (claimDoc)quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Additional ClaimFormquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
 <property name="inputBinding" value="input"/>
 <property name="outputBinding" value="output"/>
+<property name="customFieldType" value="org.jbpm.integration.ecm.FileCustomType"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="input" name="#0000A0" type="basicType" outId="output" value="java.lang.String" id="claimDoc"/>
