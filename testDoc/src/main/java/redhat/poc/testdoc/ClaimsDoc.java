@@ -12,6 +12,8 @@ public class ClaimsDoc implements java.io.Serializable
 
    private java.lang.String docid;
 
+   private java.util.List<java.lang.String> additionalDocs;
+
    public ClaimsDoc()
    {
    }
@@ -26,9 +28,21 @@ public class ClaimsDoc implements java.io.Serializable
       this.docid = docid;
    }
 
-   public ClaimsDoc(java.lang.String docid)
+   public java.util.List<java.lang.String> getAdditionalDocs()
+   {
+      return this.additionalDocs;
+   }
+
+   public void setAdditionalDocs(java.util.List<java.lang.String> additionalDocs)
+   {
+      this.additionalDocs = additionalDocs;
+   }
+
+   public ClaimsDoc(java.lang.String docid,
+         java.util.List<java.lang.String> additionalDocs)
    {
       this.docid = docid;
+      this.additionalDocs = additionalDocs;
    }
 
 }
