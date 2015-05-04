@@ -3,4 +3,13 @@
 <property name="name" value="docform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name="claimDoc" type="CustomInput" id="1836051140">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;input (claimDoc)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="input"/>
+<property name="outputBinding" value="output"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="input" name="#0000A0" type="basicType" outId="output" value="java.lang.String" id="claimDoc"/>
 </form>
