@@ -124,4 +124,13 @@ public class Claim implements java.io.Serializable
       this.assignment = assignment;
    }
 
+@Override
+public String toString() {
+	return "Claim [id=" + id + ", type=" + type + ", amount=" + amount
+			+ ", claimdate=" + claimdate + ", errorType=" + errorType
+			+ ", errorMsg=" + errorMsg + ", allowableAmount=" + allowableAmount
+			+ ", assignment=" + assignment + "]";
+}
+   
+
 }

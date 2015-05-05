@@ -69,4 +69,11 @@ public class PatientInfo implements java.io.Serializable
       this.gender = gender;
    }
 
+@Override
+public String toString() {
+	return "PatientInfo [name=" + name + ", age=" + age
+			+ ", relationShipToInsured=" + relationShipToInsured + ", gender="
+			+ gender + "]";
+}
+
 }

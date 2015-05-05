@@ -118,4 +118,11 @@ public class InsuredInfo implements java.io.Serializable
       this.gender = gender;
    }
 
+@Override
+public String toString() {
+	return "InsuredInfo [name=" + name + ", dateOfBirth=" + dateOfBirth
+			+ ", age=" + age + ", address=" + address + ", city=" + city
+			+ ", state=" + state + ", zip=" + zip + ", gender=" + gender + "]";
+}
+
 }

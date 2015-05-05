@@ -68,4 +68,11 @@ public class Service implements java.io.Serializable
       this.serviceAmount = serviceAmount;
    }
 
+@Override
+public String toString() {
+	return "Service [dateOfService=" + dateOfService + ", serviceType="
+			+ serviceType + ", code=" + code + ", serviceAmount="
+			+ serviceAmount + "]";
+}
+
 }

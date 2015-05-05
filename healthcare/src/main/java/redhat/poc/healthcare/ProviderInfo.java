@@ -80,4 +80,10 @@ public class ProviderInfo implements java.io.Serializable
       this.zip = zip;
    }
 
+@Override
+public String toString() {
+	return "ProviderInfo [name=" + name + ", address=" + address + ", city="
+			+ city + ", state=" + state + ", zip=" + zip + "]";
+}
+
 }
