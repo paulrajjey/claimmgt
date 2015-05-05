@@ -6,7 +6,7 @@ rule "validationRule"
 	dialect "mvel"
 	ruleflow-group "data"
 	when
-		claim : Claim( type == null )
+		claim : Claim( type not in ( "MEDCARE", "MEDCAID", "GROUP" ) )
 	then
 		claim.setErrorType( "Data" );
 		System.out.println("Data error");
