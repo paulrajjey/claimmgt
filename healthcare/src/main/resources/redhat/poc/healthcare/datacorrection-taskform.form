@@ -1,0 +1,71 @@
+
+<form id="1788460719">
+<property name="name" value="datacorrection-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="claim_allowableAmount" type="InputTextPrimitiveDouble" id="1835077293">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;allowableAmount (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="eClaimIn/allowableAmount"/>
+<property name="outputBinding" value="eClaimOut/allowableAmount"/>
+<property name="fieldClass" value="double"/>
+</field>
+<field position="1" name="claim_amount" type="InputTextPrimitiveDouble" id="395012586">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;amount (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="eClaimIn/amount"/>
+<property name="outputBinding" value="eClaimOut/amount"/>
+<property name="fieldClass" value="double"/>
+</field>
+<field position="2" name="claim_assignment" type="InputText" id="642630300">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;assignment (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="eClaimIn/assignment"/>
+<property name="outputBinding" value="eClaimOut/assignment"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="claim_claimdate" type="InputDate" id="65096307">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;claimdate (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="eClaimIn/claimdate"/>
+<property name="outputBinding" value="eClaimOut/claimdate"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="4" name="claim_errorMsg" type="InputText" id="1745211298">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;errorMsg (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="eClaimIn/errorMsg"/>
+<property name="outputBinding" value="eClaimOut/errorMsg"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="claim_errorType" type="InputText" id="1258563376">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;errorType (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="eClaimIn/errorType"/>
+<property name="outputBinding" value="eClaimOut/errorType"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="claim_id" type="InputText" id="1611567508">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;id (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="eClaimIn/id"/>
+<property name="outputBinding" value="eClaimOut/id"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="7" name="claim_type" type="InputText" id="991571865">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;type (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="eClaimIn/type"/>
+<property name="outputBinding" value="eClaimOut/type"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="eClaimIn" name="#0000A0" type="dataModelerEntry" outId="eClaimOut" value="redhat.poc.healthcare.Claim" id="claim"/>
+</form>
