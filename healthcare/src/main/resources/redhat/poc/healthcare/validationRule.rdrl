@@ -9,4 +9,5 @@ rule "validationRule"
 		claim : Claim( type == null )
 	then
 		claim.setErrorType( "Data" );
+		System.out.println("Data error");
 end
