@@ -4,6 +4,7 @@ import java.lang.Number;
 
 rule "validationRule"
 	dialect "mvel"
+	ruleflow-group "data"
 	when
 		claim : Claim( type == null )
 	then
