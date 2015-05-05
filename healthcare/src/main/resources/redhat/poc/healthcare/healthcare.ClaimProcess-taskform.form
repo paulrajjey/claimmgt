@@ -3,7 +3,7 @@
 <property name="name" value="healthcare.ClaimProcess-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="4" name="claim_amount" type="InputTextPrimitiveDouble" id="280510809">
+<field position="3" name="claim_amount" type="InputTextPrimitiveDouble" id="280510809">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;enquot;,quot;amount (claim)quot;"/>
@@ -11,7 +11,7 @@
 <property name="outputBinding" value="claim/amount"/>
 <property name="fieldClass" value="double"/>
 </field>
-<field position="5" name="claim_claimdate" type="InputDate" id="532378406">
+<field position="4" name="claim_claimdate" type="InputDate" id="532378406">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;claimdate (claim)quot;"/>
@@ -19,7 +19,7 @@
 <property name="outputBinding" value="claim/claimdate"/>
 <property name="fieldClass" value="java.util.Date"/>
 </field>
-<field position="1" name="claim_id" type="InputText" id="230301264">
+<field position="0" name="claim_id" type="InputText" id="230301264">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;enquot;,quot;id (claim)quot;"/>
@@ -27,7 +27,7 @@
 <property name="outputBinding" value="claim/id"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="2" name="claim_type" type="InputText" id="1794285671">
+<field position="1" name="claim_type" type="InputText" id="1794285671">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;type (claim)quot;"/>
@@ -35,7 +35,7 @@
 <property name="outputBinding" value="claim/type"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="3" name="claimDoc" type="InputText" id="1033859609">
+<field position="2" name="claimDoc" type="InputText" id="1033859609">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;claimDoc (claimDoc)quot;"/>
@@ -43,7 +43,7 @@
 <property name="outputBinding" value="claimDoc"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="10" name="insuredInfo_address" type="InputText" id="852241017">
+<field position="9" name="insuredInfo_address" type="InputText" id="852241017">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;enquot;,quot;address (insuredInfo)quot;"/>
@@ -51,7 +51,7 @@
 <property name="outputBinding" value="insuredInfo/address"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="8" name="insuredInfo_age" type="InputTextPrimitiveInteger" id="905849456">
+<field position="7" name="insuredInfo_age" type="InputTextPrimitiveInteger" id="905849456">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;age (insuredInfo)quot;"/>
@@ -59,7 +59,7 @@
 <property name="outputBinding" value="insuredInfo/age"/>
 <property name="fieldClass" value="int"/>
 </field>
-<field position="11" name="insuredInfo_city" type="InputText" id="1219546838">
+<field position="10" name="insuredInfo_city" type="InputText" id="1219546838">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;city (insuredInfo)quot;"/>
@@ -67,7 +67,7 @@
 <property name="outputBinding" value="insuredInfo/city"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="9" name="insuredInfo_gender" type="InputText" id="97594289">
+<field position="8" name="insuredInfo_gender" type="InputText" id="97594289">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;gender (insuredInfo)quot;"/>
@@ -75,7 +75,7 @@
 <property name="outputBinding" value="insuredInfo/gender"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="7" name="insuredInfo_name" type="InputText" id="1219055767">
+<field position="6" name="insuredInfo_name" type="InputText" id="1219055767">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;enquot;,quot;name (insuredInfo)quot;"/>
@@ -83,7 +83,7 @@
 <property name="outputBinding" value="insuredInfo/name"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="12" name="insuredInfo_state" type="InputText" id="104432964">
+<field position="11" name="insuredInfo_state" type="InputText" id="104432964">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;state (insuredInfo)quot;"/>
@@ -91,7 +91,7 @@
 <property name="outputBinding" value="insuredInfo/state"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="13" name="insuredInfo_zip" type="InputText" id="1218914137">
+<field position="12" name="insuredInfo_zip" type="InputText" id="1218914137">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;zip (insuredInfo)quot;"/>
@@ -99,7 +99,7 @@
 <property name="outputBinding" value="insuredInfo/zip"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="16" name="patientInfo_age" type="InputTextPrimitiveInteger" id="936415138">
+<field position="15" name="patientInfo_age" type="InputTextPrimitiveInteger" id="936415138">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;age (patientInfo)quot;"/>
@@ -107,7 +107,7 @@
 <property name="outputBinding" value="patientInfo/age"/>
 <property name="fieldClass" value="int"/>
 </field>
-<field position="17" name="patientInfo_gender" type="InputText" id="2059901401">
+<field position="16" name="patientInfo_gender" type="InputText" id="2059901401">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;gender (patientInfo)quot;"/>
@@ -115,7 +115,7 @@
 <property name="outputBinding" value="patientInfo/gender"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="15" name="patientInfo_name" type="InputText" id="1975261178">
+<field position="14" name="patientInfo_name" type="InputText" id="1975261178">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;enquot;,quot;name (patientInfo)quot;"/>
@@ -123,7 +123,7 @@
 <property name="outputBinding" value="patientInfo/name"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="18" name="patientInfo_relationShipToInsured" type="InputText" id="1547144542">
+<field position="17" name="patientInfo_relationShipToInsured" type="InputText" id="1547144542">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;relationShipToInsured (patientInfo)quot;"/>
@@ -131,9 +131,9 @@
 <property name="outputBinding" value="patientInfo/relationShipToInsured"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="0" name="providerInfo_address" type="InputText" id="1124506873">
+<field position="20" name="providerInfo_address" type="InputText" id="1124506873">
 <property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
+<property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;address (providerInfo)quot;"/>
 <property name="readonly" value="false"/>
 <property name="outputBinding" value="providerInfo/address"/>
@@ -147,7 +147,7 @@
 <property name="outputBinding" value="providerInfo/city"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="20" name="providerInfo_name" type="InputText" id="1721328563">
+<field position="19" name="providerInfo_name" type="InputText" id="1721328563">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;enquot;,quot;name (providerInfo)quot;"/>
@@ -165,13 +165,13 @@
 </field>
 <field position="23" name="providerInfo_zip" type="InputText" id="1278684161">
 <property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
+<property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;enquot;,quot;zip (providerInfo)quot;"/>
 <property name="readonly" value="false"/>
 <property name="outputBinding" value="providerInfo/zip"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="25" name="service_code" type="InputText" id="759714199">
+<field position="26" name="service_code" type="InputText" id="759714199">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;code (service)quot;"/>
@@ -179,7 +179,7 @@
 <property name="outputBinding" value="service/code"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="26" name="service_dateOfService" type="InputDate" id="319423635">
+<field position="27" name="service_dateOfService" type="InputDate" id="319423635">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;dateOfService (service)quot;"/>
@@ -187,7 +187,7 @@
 <property name="outputBinding" value="service/dateOfService"/>
 <property name="fieldClass" value="java.util.Date"/>
 </field>
-<field position="27" name="service_serviceAmount" type="InputTextPrimitiveDouble" id="1748550493">
+<field position="28" name="service_serviceAmount" type="InputTextPrimitiveDouble" id="1748550493">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;serviceAmount (service)quot;"/>
@@ -195,7 +195,7 @@
 <property name="outputBinding" value="service/serviceAmount"/>
 <property name="fieldClass" value="double"/>
 </field>
-<field position="24" name="service_serviceType" type="InputText" id="86739026">
+<field position="25" name="service_serviceType" type="InputText" id="86739026">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;enquot;,quot;serviceType (service)quot;"/>
@@ -203,19 +203,25 @@
 <property name="outputBinding" value="service/serviceType"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="6" name=":decorator_0" type="Separator" id="92235515">
+<field position="5" name=":decorator_0" type="Separator" id="92235515">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="readonly" value="false"/>
 <property name="fieldClass" value="Separator"/>
 </field>
-<field position="14" name=":decorator_1" type="Separator" id="1838018415">
+<field position="13" name=":decorator_1" type="Separator" id="1838018415">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="readonly" value="false"/>
 <property name="fieldClass" value="Separator"/>
 </field>
-<field position="19" name=":decorator_2" type="Separator" id="1134600761">
+<field position="18" name=":decorator_2" type="Separator" id="1134600761">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="Separator"/>
+</field>
+<field position="24" name=":decorator_3" type="Separator" id="1275847204">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="readonly" value="false"/>
