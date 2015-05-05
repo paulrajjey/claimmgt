@@ -1,0 +1,9 @@
+package redhat.poc.healthcare;
+
+import java.lang.Number;
+
+rule "validationRule"
+	dialect "mvel"
+	when
+	then
+end
