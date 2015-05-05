@@ -23,6 +23,8 @@ public class Claim implements java.io.Serializable
 
    private double allowableAmount;
 
+   private java.lang.String assignment;
+
    public Claim()
    {
    }
@@ -97,9 +99,20 @@ public class Claim implements java.io.Serializable
       this.allowableAmount = allowableAmount;
    }
 
+   public java.lang.String getAssignment()
+   {
+      return this.assignment;
+   }
+
+   public void setAssignment(java.lang.String assignment)
+   {
+      this.assignment = assignment;
+   }
+
    public Claim(java.lang.String id, java.lang.String type, double amount,
          java.util.Date claimdate, java.lang.String errorType,
-         java.lang.String errorMsg, double allowableAmount)
+         java.lang.String errorMsg, double allowableAmount,
+         java.lang.String assignment)
    {
       this.id = id;
       this.type = type;
@@ -108,6 +121,7 @@ public class Claim implements java.io.Serializable
       this.errorType = errorType;
       this.errorMsg = errorMsg;
       this.allowableAmount = allowableAmount;
+      this.assignment = assignment;
    }
 
 }
