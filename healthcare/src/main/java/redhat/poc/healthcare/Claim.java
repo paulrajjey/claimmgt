@@ -17,6 +17,10 @@ public class Claim implements java.io.Serializable
    private double amount;
    private java.util.Date claimdate;
 
+   private java.lang.String errorType;
+
+   private java.lang.String errorMsg;
+
    public Claim()
    {
    }
@@ -61,13 +65,36 @@ public class Claim implements java.io.Serializable
       this.claimdate = claimdate;
    }
 
+   public java.lang.String getErrorType()
+   {
+      return this.errorType;
+   }
+
+   public void setErrorType(java.lang.String errorType)
+   {
+      this.errorType = errorType;
+   }
+
+   public java.lang.String getErrorMsg()
+   {
+      return this.errorMsg;
+   }
+
+   public void setErrorMsg(java.lang.String errorMsg)
+   {
+      this.errorMsg = errorMsg;
+   }
+
    public Claim(java.lang.String id, java.lang.String type, double amount,
-         java.util.Date claimdate)
+         java.util.Date claimdate, java.lang.String errorType,
+         java.lang.String errorMsg)
    {
       this.id = id;
       this.type = type;
       this.amount = amount;
       this.claimdate = claimdate;
+      this.errorType = errorType;
+      this.errorMsg = errorMsg;
    }
 
 }
