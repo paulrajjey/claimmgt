@@ -5,6 +5,7 @@ import java.lang.Number;
 rule "validationRule"
 	dialect "mvel"
 	when
-		Claim( type == null )
+		claim : Claim( type == null )
 	then
+		claim.setErrorType( "Data" );
 end
