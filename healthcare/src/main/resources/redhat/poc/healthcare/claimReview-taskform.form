@@ -263,22 +263,32 @@
 <property name="outputBinding" value="rServiceOut/serviceType"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="5" name="addiotionDoc" type="InputText" id="402439195">
+<field position="5" name="addiotionDoc" type="CustomInput" id="402439195">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;enquot;,quot;rAddClaimDoc (addiotionDoc)quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Additional Claim Docquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
 <property name="inputBinding" value="rAddClaimDoc"/>
 <property name="outputBinding" value="rClaimaddDocout"/>
+<property name="customFieldType" value="org.jbpm.integration.ecm.FileCustomType"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="2" name="claimDoc" type="InputText" id="1581774265">
+<field position="2" name="claimDoc" type="CustomInput" id="1581774265">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;enquot;,quot;rclaimdoc (claimDoc)quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Claim docquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
 <property name="inputBinding" value="rclaimdoc"/>
 <property name="outputBinding" value="rClaimDocout"/>
+<property name="customFieldType" value="org.jbpm.integration.ecm.FileCustomType"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="6" name=":decorator_0" type="Separator" id="110072074">
