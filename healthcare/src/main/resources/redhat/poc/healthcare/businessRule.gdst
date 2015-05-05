@@ -112,9 +112,9 @@
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
           <width>-1</width>
-          <header>Code</header>
+          <header>ServiceType</header>
           <constraintValueType>1</constraintValueType>
-          <factField>code</factField>
+          <factField>serviceType</factField>
           <fieldType>String</fieldType>
           <operator>==</operator>
           <valueList>SC1001,SC1002,SC1003,SC1004</valueList>
