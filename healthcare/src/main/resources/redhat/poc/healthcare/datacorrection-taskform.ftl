@@ -224,7 +224,7 @@
             	<label for="name">Actor ID</label>
             	<div class="div_checkbox"></div>
             	<label for="name">Group</label>
-            	<div class="div_checkbox"><![CDATA[claimGroup1]]></div>
+            	<div class="div_checkbox"><![CDATA[${claim.assignment}]]></div>
             	<label for="name">Skippable</label>
             	<div class="div_checkbox">true</div>
             	<label for="name">Priority</label>
