@@ -62,7 +62,7 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
   [
     "name" : "generatePDF",
     "parameters" : [
-        "claim" : new ObjectDataType(),
+        "claimpdf" : new ObjectDataType(),
         "insured" : new ObjectDataType(),
         "service" : new ObjectDataType()
     ],
