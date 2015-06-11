@@ -70,7 +70,7 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
         "Result" : new ObjectDataType(),
     ],
     "displayName" : "Generate PDF",
-    "Category":Health Net",
+    "category":Health Net",
     "icon" : "defaultservicenodeicon.png"
   ]
 ]
