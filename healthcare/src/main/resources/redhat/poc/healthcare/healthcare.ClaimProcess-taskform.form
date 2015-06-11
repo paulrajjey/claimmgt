@@ -251,52 +251,6 @@
 <property name="readonly" value="false"/>
 <property name="fieldClass" value="Separator"/>
 </field>
-<field position="25" name="service_serviceType" type="InputText" id="86739026">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Service Typequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="false"/>
-<property name="rangeFormula" value="{SC1001,SC1001;SC1002,SC1002;SC1003,SC1003;SC1004,SC1004}"/>
-<property name="isHTML" value="false"/>
-<property name="hideContent" value="false"/>
-<property name="outputBinding" value="service/serviceType"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="26" name="service_code" type="InputText" id="759714199">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Service codequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="false"/>
-<property name="rangeFormula" value="{AX1001,AX1001;AZ1001,AZ1001;AY1001,AY1001;}"/>
-<property name="isHTML" value="false"/>
-<property name="hideContent" value="false"/>
-<property name="outputBinding" value="service/code"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="27" name="service_dateOfService" type="InputDate" id="319423635">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Date Of Servicequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="service/dateOfService"/>
-<property name="fieldClass" value="java.util.Date"/>
-</field>
-<field position="28" name="service_serviceAmount" type="InputTextPrimitiveDouble" id="1748550493">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Service Amountquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="service/serviceAmount"/>
-<property name="fieldClass" value="double"/>
-</field>
 <dataHolder inputId="" name="#FBB767" type="basicType" outId="addiotionDoc" value="java.lang.String" id="addiotionDoc"/>
 <dataHolder inputId="" name="#BBBBBB" type="basicType" outId="assignment" value="java.lang.String" id="assignment"/>
 <dataHolder inputId="" name="#0000A0" type="dataModelerEntry" outId="claim" value="redhat.poc.healthcare.Claim" id="claim"/>
@@ -306,5 +260,4 @@
 <dataHolder inputId="" name="#A7E690" type="dataModelerEntry" outId="patientInfo" value="redhat.poc.healthcare.PatientInfo" id="patientInfo"/>
 <dataHolder inputId="" name="#B29FE4" type="dataModelerEntry" outId="providerInfo" value="redhat.poc.healthcare.ProviderInfo" id="providerInfo"/>
 <dataHolder inputId="" name="#E9E371" type="basicType" outId="reviewgroup" value="java.lang.String" id="reviewgroup"/>
-<dataHolder inputId="" name="#9BCAFA" type="dataModelerEntry" outId="service" value="redhat.poc.healthcare.Service" id="service"/>
 </form>
