@@ -29,7 +29,7 @@
             <name>Service Task</name>
         </work-item-handler>
         <work-item-handler>
-            <resolver>enter resolver type</resolver>
+            <resolver>mvel</resolver>
             <identifier>new com.healthcare.claim.workitem.GeneratePDF()</identifier>
             <parameters/>
             <name>generatePDF</name>
