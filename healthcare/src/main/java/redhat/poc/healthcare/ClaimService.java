@@ -5,9 +5,9 @@ package redhat.poc.healthcare;
  */
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
-@XmlRootElement(name = "ClaimService" , namespace="http://healthcare.poc.redhat")
+@XmlRootElement
 @org.kie.api.remote.Remotable
-public class Service implements java.io.Serializable
+public class ClaimService implements java.io.Serializable
 {
 
    static final long serialVersionUID = 1L;
@@ -61,7 +61,7 @@ public class Service implements java.io.Serializable
       this.serviceAmount = serviceAmount;
    }
 
-   public Service(java.util.Date dateOfService, java.lang.String serviceType,
+   public ClaimService(java.util.Date dateOfService, java.lang.String serviceType,
          java.lang.String code, double serviceAmount)
    {
       this.dateOfService = dateOfService;
