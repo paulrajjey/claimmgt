@@ -84,7 +84,7 @@
       </window>
     </Pattern52>
     <Pattern52>
-      <factType>Service</factType>
+      <factType>ClaimService</factType>
       <boundName>service</boundName>
       <isNegated>false</isNegated>
       <conditions>
