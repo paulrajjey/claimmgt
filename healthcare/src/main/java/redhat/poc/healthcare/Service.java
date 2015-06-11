@@ -5,7 +5,7 @@ package redhat.poc.healthcare;
  */
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
-@XmlRootElement(name = "ClaimService")
+@XmlRootElement(name = "ClaimService" , namespace="http://healthcare.poc.redhat")
 @org.kie.api.remote.Remotable
 public class Service implements java.io.Serializable
 {
