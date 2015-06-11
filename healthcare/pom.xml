@@ -6,13 +6,6 @@
   <artifactId>healthcare</artifactId>
   <version>1.0</version>
   <name>healthcare</name>
-  <dependencies>
-    <dependency>
-      <groupId>redhat.poc.claim.workitems</groupId>
-      <artifactId>claim-workitem</artifactId>
-      <version>1.0</version>
-    </dependency>
-  </dependencies>
   <build>
     <plugins>
       <plugin>
