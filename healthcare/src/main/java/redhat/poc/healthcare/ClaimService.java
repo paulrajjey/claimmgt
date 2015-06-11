@@ -17,7 +17,7 @@ public class ClaimService implements java.io.Serializable
    private java.lang.String code;
    private double serviceAmount;
 
-   public Service()
+   public ClaimService()
    {
    }
 
