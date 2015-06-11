@@ -51,7 +51,7 @@ public class ProviderInfo implements java.io.Serializable
    {
       this.city = city;
    }
-   @XmlElement
+   
    public java.lang.String getState()
    {
       return this.state;
@@ -61,7 +61,7 @@ public class ProviderInfo implements java.io.Serializable
    {
       this.state = state;
    }
-   @XmlElement
+   
    public java.lang.String getZip()
    {
       return this.zip;
