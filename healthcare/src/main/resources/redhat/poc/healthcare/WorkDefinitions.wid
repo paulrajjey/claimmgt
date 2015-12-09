@@ -72,5 +72,20 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
     "displayName" : "Generate PDF",
     "category":"Health Net",
     "icon" : "defaultservicenodeicon.png"
+  ],
+
+  [
+    "name" : "customService",
+    "parameters" : [
+        "claimpdf" : new ObjectDataType(),
+        "insuredpdf" : new ObjectDataType(),
+        "servicepdf" : new ObjectDataType()
+    ],
+    "results" : [
+        "Result" : new ObjectDataType(),
+    ],
+    "displayName" : "custom Service",
+    "category":"Citi",
+    "icon" : "defaultservicenodeicon.png"
   ]
 ]
