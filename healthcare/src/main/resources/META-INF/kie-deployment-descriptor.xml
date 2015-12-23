@@ -5,17 +5,17 @@
     <audit-mode>JPA</audit-mode>
     <persistence-mode>JPA</persistence-mode>
     <runtime-strategy>SINGLETON</runtime-strategy>
-    <marshalling-strategies/>
+    <marshalling-strategies>
+        <marshalling-strategy>
+            <resolver>mvel</resolver>
+            <identifier>new org.drools.persistence.jpa.marshaller.JPAPlaceholderResolverStrategy("redhat.poc:healthcare:1.0", classLoader)</identifier>
+            <parameters/>
+        </marshalling-strategy>
+    </marshalling-strategies>
     <event-listeners/>
     <task-event-listeners/>
     <globals/>
     <work-item-handlers>
-        <work-item-handler>
-            <resolver>mvel</resolver>
-            <identifier>new org.jbpm.process.instance.impl.demo.SystemOutWorkItemHandler()</identifier>
-            <parameters/>
-            <name>WebService</name>
-        </work-item-handler>
         <work-item-handler>
             <resolver>mvel</resolver>
             <identifier>new org.jbpm.process.instance.impl.demo.SystemOutWorkItemHandler()</identifier>
@@ -26,13 +26,13 @@
             <resolver>mvel</resolver>
             <identifier>new org.jbpm.process.instance.impl.demo.SystemOutWorkItemHandler()</identifier>
             <parameters/>
-            <name>Service Task</name>
+            <name>WebService</name>
         </work-item-handler>
         <work-item-handler>
             <resolver>mvel</resolver>
-            <identifier>new com.healthcare.claim.workitem.DocumentWorkItem()</identifier>
+            <identifier>new org.jbpm.process.instance.impl.demo.SystemOutWorkItemHandler()</identifier>
             <parameters/>
-            <name>generatePDF</name>
+            <name>Service Task</name>
         </work-item-handler>
         <work-item-handler>
             <resolver>mvel</resolver>
@@ -45,6 +45,12 @@
             <identifier>new org.jbpm.process.workitem.rest.RESTWorkItemHandler()</identifier>
             <parameters/>
             <name>Rest</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new com.healthcare.claim.workitem.DocumentWorkItem()</identifier>
+            <parameters/>
+            <name>generatePDF</name>
         </work-item-handler>
     </work-item-handlers>
     <environment-entries/>
