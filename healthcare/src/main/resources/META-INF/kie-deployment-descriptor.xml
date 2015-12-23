@@ -7,6 +7,11 @@
     <runtime-strategy>SINGLETON</runtime-strategy>
     <marshalling-strategies>
         <marshalling-strategy>
+            <resolver>reflection</resolver>
+            <identifier>org.jbpm.integration.cmis.impl.OpenCMISPlaceholderResolverStrategy</identifier>
+            <parameters/>
+        </marshalling-strategy>
+        <marshalling-strategy>
             <resolver>mvel</resolver>
             <identifier>new org.drools.persistence.jpa.marshaller.JPAPlaceholderResolverStrategy("redhat.poc:healthcare:1.0", classLoader)</identifier>
             <parameters/>
