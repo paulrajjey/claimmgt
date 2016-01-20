@@ -5,5 +5,7 @@ import java.lang.Number;
 rule "Rule 1"
 	dialect "mvel"
 	when
+		app : Applicant( age > 35 , score > 600 )
 	then
+		app.setCreditAmount( 1000.0 );
 end
