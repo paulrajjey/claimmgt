@@ -1,0 +1,9 @@
+package redhat.ruledemo;
+
+import java.lang.Number;
+
+rule "Rule 1"
+	dialect "mvel"
+	when
+	then
+end
