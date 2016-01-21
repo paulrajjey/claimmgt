@@ -1,0 +1,42 @@
+
+<form id="952035756">
+<property name="name" value="rule.ruleProcess-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="2" name="applicant_name" type="InputText" id="1699487874">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;name (applicant)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="applicant/name"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="applicant_creditAmount" type="InputTextPrimitiveDouble" id="534942200">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;creditAmount (applicant)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="applicant/creditAmount"/>
+<property name="fieldClass" value="double"/>
+</field>
+<field position="4" name="applicant_state" type="InputText" id="1253411757">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;state (applicant)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="applicant/state"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="applicant_score" type="InputTextPrimitiveInteger" id="226754234">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;score (applicant)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="applicant/score"/>
+<property name="fieldClass" value="int"/>
+</field>
+<field position="0" name="applicant_age" type="InputTextPrimitiveInteger" id="876547232">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;age (applicant)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="applicant/age"/>
+<property name="fieldClass" value="int"/>
+</field>
+<dataHolder inputId="" name="#0000A0" type="dataModelerEntry" outId="applicant" value="redhat.ruledemo.Applicant" id="applicant"/>
+</form>
