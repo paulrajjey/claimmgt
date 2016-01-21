@@ -3,40 +3,42 @@
 <property name="name" value="review-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="applicant_age" type="InputTextPrimitiveInteger" id="1263213794">
+<field position="1" name="applicant_age" type="InputTextPrimitiveInteger" id="1263213794">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;age (applicant)quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="applicaTssk/age"/>
 <property name="fieldClass" value="int"/>
 </field>
-<field position="4" name="applicant_state" type="InputText" id="1856515827">
+<field position="4" name="applicant_creditAmount" type="InputTextPrimitiveDouble" id="1076318413">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;state (applicant)quot;"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;creditAmount (applicant)quot;"/>
 <property name="readonly" value="false"/>
-<property name="inputBinding" value="applicaTssk/state"/>
+<property name="inputBinding" value="applicaTssk/creditAmount"/>
+<property name="fieldClass" value="double"/>
+</field>
+<field position="0" name="applicant_name" type="InputText" id="1767571257">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;name (applicant)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="applicaTssk/name"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="3" name="applicant_score" type="InputTextPrimitiveInteger" id="1587278889">
+<field position="2" name="applicant_score" type="InputTextPrimitiveInteger" id="1587278889">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;score (applicant)quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="applicaTssk/score"/>
 <property name="fieldClass" value="int"/>
 </field>
-<field position="2" name="applicant_name" type="InputText" id="1767571257">
+<field position="3" name="applicant_state" type="InputText" id="1856515827">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;name (applicant)quot;"/>
+<property name="label" value="quot;enquot;,quot;state (applicant)quot;"/>
 <property name="readonly" value="false"/>
-<property name="inputBinding" value="applicaTssk/name"/>
+<property name="inputBinding" value="applicaTssk/state"/>
 <property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="1" name="applicant_creditAmount" type="InputTextPrimitiveDouble" id="1076318413">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;creditAmount (applicant)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="applicaTssk/creditAmount"/>
-<property name="fieldClass" value="double"/>
 </field>
 <dataHolder inputId="applicaTssk" name="#0000A0" type="dataModelerEntry" outId="" value="redhat.ruledemo.Applicant" id="applicant"/>
 </form>
