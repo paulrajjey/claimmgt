@@ -3,40 +3,46 @@
 <property name="name" value="rule.ruleProcess-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="2" name="applicant_name" type="InputText" id="1699487874">
+<field position="1" name="applicant_age" type="InputTextPrimitiveInteger" id="876547232">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;name (applicant)quot;"/>
+<property name="label" value="quot;enquot;,quot;age (applicant)quot;"/>
 <property name="readonly" value="false"/>
-<property name="outputBinding" value="applicant/name"/>
-<property name="fieldClass" value="java.lang.String"/>
+<property name="outputBinding" value="applicant/age"/>
+<property name="fieldClass" value="int"/>
 </field>
-<field position="1" name="applicant_creditAmount" type="InputTextPrimitiveDouble" id="534942200">
+<field position="4" name="applicant_creditAmount" type="InputTextPrimitiveDouble" id="534942200">
 <property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;enquot;,quot;creditAmount (applicant)quot;"/>
 <property name="readonly" value="false"/>
 <property name="outputBinding" value="applicant/creditAmount"/>
 <property name="fieldClass" value="double"/>
 </field>
-<field position="4" name="applicant_state" type="InputText" id="1253411757">
+<field position="0" name="applicant_name" type="InputText" id="1699487874">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;state (applicant)quot;"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;name of the Applicantquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
-<property name="outputBinding" value="applicant/state"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="outputBinding" value="applicant/name"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="3" name="applicant_score" type="InputTextPrimitiveInteger" id="226754234">
+<field position="2" name="applicant_score" type="InputTextPrimitiveInteger" id="226754234">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;score (applicant)quot;"/>
 <property name="readonly" value="false"/>
 <property name="outputBinding" value="applicant/score"/>
 <property name="fieldClass" value="int"/>
 </field>
-<field position="0" name="applicant_age" type="InputTextPrimitiveInteger" id="876547232">
+<field position="3" name="applicant_state" type="InputText" id="1253411757">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;age (applicant)quot;"/>
+<property name="label" value="quot;enquot;,quot;state (applicant)quot;"/>
 <property name="readonly" value="false"/>
-<property name="outputBinding" value="applicant/age"/>
-<property name="fieldClass" value="int"/>
+<property name="outputBinding" value="applicant/state"/>
+<property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="" name="#0000A0" type="dataModelerEntry" outId="applicant" value="redhat.ruledemo.Applicant" id="applicant"/>
 </form>
