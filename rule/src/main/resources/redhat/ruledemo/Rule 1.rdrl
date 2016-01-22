@@ -8,5 +8,5 @@ rule "Rule 1"
 	when
 		app : Applicant( age > 35 , score > 600 )
 	then
-		app.setCreditAmount( 1000.0 );
+		app.setCreditAmount( 2000.0 );
 end
