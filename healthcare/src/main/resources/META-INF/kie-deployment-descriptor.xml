@@ -7,13 +7,13 @@
     <runtime-strategy>SINGLETON</runtime-strategy>
     <marshalling-strategies>
         <marshalling-strategy>
-            <resolver>reflection</resolver>
-            <identifier>org.jbpm.integration.cmis.impl.OpenCMISPlaceholderResolverStrategy</identifier>
+            <resolver>mvel</resolver>
+            <identifier>new org.drools.persistence.jpa.marshaller.JPAPlaceholderResolverStrategy("redhat.poc:healthcare:1.0", classLoader)</identifier>
             <parameters/>
         </marshalling-strategy>
         <marshalling-strategy>
             <resolver>mvel</resolver>
-            <identifier>new org.drools.persistence.jpa.marshaller.JPAPlaceholderResolverStrategy("redhat.poc:healthcare:1.0", classLoader)</identifier>
+            <identifier>org.jbpm.integration.cmis.impl.OpenCMISPlaceholderResolverStrategy</identifier>
             <parameters/>
         </marshalling-strategy>
     </marshalling-strategies>
@@ -25,19 +25,25 @@
             <resolver>mvel</resolver>
             <identifier>new org.jbpm.process.instance.impl.demo.SystemOutWorkItemHandler()</identifier>
             <parameters/>
-            <name>Log</name>
-        </work-item-handler>
-        <work-item-handler>
-            <resolver>mvel</resolver>
-            <identifier>new org.jbpm.process.instance.impl.demo.SystemOutWorkItemHandler()</identifier>
-            <parameters/>
             <name>WebService</name>
         </work-item-handler>
         <work-item-handler>
             <resolver>mvel</resolver>
             <identifier>new org.jbpm.process.instance.impl.demo.SystemOutWorkItemHandler()</identifier>
             <parameters/>
+            <name>Log</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new org.jbpm.process.instance.impl.demo.SystemOutWorkItemHandler()</identifier>
+            <parameters/>
             <name>Service Task</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new com.healthcare.claim.workitem.DocumentWorkItem()</identifier>
+            <parameters/>
+            <name>generatePDF</name>
         </work-item-handler>
         <work-item-handler>
             <resolver>mvel</resolver>
@@ -50,12 +56,6 @@
             <identifier>new org.jbpm.process.workitem.rest.RESTWorkItemHandler()</identifier>
             <parameters/>
             <name>Rest</name>
-        </work-item-handler>
-        <work-item-handler>
-            <resolver>mvel</resolver>
-            <identifier>new com.healthcare.claim.workitem.DocumentWorkItem()</identifier>
-            <parameters/>
-            <name>generatePDF</name>
         </work-item-handler>
     </work-item-handlers>
     <environment-entries/>
