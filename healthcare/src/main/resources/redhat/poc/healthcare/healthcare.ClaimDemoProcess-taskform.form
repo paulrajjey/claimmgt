@@ -3,245 +3,143 @@
 <property name="name" value="healthcare.ClaimDemoProcess-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="25" name="providerInfo_city" type="InputText" id="376820852">
+<field position="3" name="claim_amount" type="InputTextPrimitiveDouble" id="808968981">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;city (providerInfo)quot;"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;amount (claim)quot;"/>
 <property name="readonly" value="false"/>
-<property name="outputBinding" value="providerInfo/city"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="12" name="insuredInfo_address" type="InputText" id="108735997">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;address (insuredInfo)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="insuredInfo/address"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="1" name="assignment" type="InputText" id="292447977">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;assignment (assignment)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="assignment"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="13" name="insuredInfo_age" type="InputTextPrimitiveInteger" id="1285857452">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;age (insuredInfo)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="insuredInfo/age"/>
-<property name="fieldClass" value="int"/>
-</field>
-<field position="15" name="insuredInfo_dateOfBirth" type="InputDate" id="399311941">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;dateOfBirth (insuredInfo)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="insuredInfo/dateOfBirth"/>
-<property name="fieldClass" value="java.util.Date"/>
-</field>
-<field position="7" name="claim_errorType" type="InputText" id="1552127177">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;errorType (claim)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="claim/errorType"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="28" name="providerInfo_zip" type="InputText" id="1498693279">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;zip (providerInfo)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="providerInfo/zip"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="32" name="service_serviceAmount" type="InputTextPrimitiveDouble" id="823972887">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;serviceAmount (service)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="service/serviceAmount"/>
+<property name="outputBinding" value="claim/amount"/>
 <property name="fieldClass" value="double"/>
 </field>
-<field position="2" name="claim_allowableAmount" type="InputTextPrimitiveDouble" id="146889807">
+<field position="4" name="claim_claimdate" type="InputDate" id="435821921">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;allowableAmount (claim)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="claim/allowableAmount"/>
-<property name="fieldClass" value="double"/>
-</field>
-<field position="23" name="patientInfo_relationShipToInsured" type="InputText" id="178507693">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;relationShipToInsured (patientInfo)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="patientInfo/relationShipToInsured"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="30" name="service_code" type="InputText" id="1303791609">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;code (service)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="service/code"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="29" name="reviewgroup" type="InputText" id="851033640">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;reviewgroup (reviewgroup)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="reviewgroup"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="0" name="addiotionDoc" type="Document" id="1954935696">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;addiotionDoc (addiotionDoc)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="addiotionDoc"/>
-<property name="fieldClass" value="org.jbpm.document.Document"/>
-</field>
-<field position="6" name="claim_errorMsg" type="InputText" id="1059298805">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;errorMsg (claim)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="claim/errorMsg"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="14" name="insuredInfo_city" type="InputText" id="506840163">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;city (insuredInfo)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="insuredInfo/city"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="20" name="patientInfo_age" type="InputTextPrimitiveInteger" id="2005644113">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;age (patientInfo)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="patientInfo/age"/>
-<property name="fieldClass" value="int"/>
-</field>
-<field position="5" name="claim_claimdate" type="InputDate" id="435821921">
-<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;claimdate (claim)quot;"/>
 <property name="readonly" value="false"/>
 <property name="outputBinding" value="claim/claimdate"/>
 <property name="fieldClass" value="java.util.Date"/>
 </field>
-<field position="10" name="claimDoc" type="Document" id="921940712">
+<field position="0" name="claim_id" type="InputText" id="1401725097">
 <property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;id (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="claim/id"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="claim_type" type="InputText" id="665739156">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;type (claim)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="claim/type"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="claimDoc" type="Document" id="921940712">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;claimDoc (claimDoc)quot;"/>
 <property name="readonly" value="false"/>
 <property name="outputBinding" value="claimDoc"/>
 <property name="fieldClass" value="org.jbpm.document.Document"/>
 </field>
-<field position="17" name="insuredInfo_name" type="InputText" id="585885430">
+<field position="5" name="insuredInfo_name" type="InputText" id="585885430">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;name (insuredInfo)quot;"/>
 <property name="readonly" value="false"/>
 <property name="outputBinding" value="insuredInfo/name"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="3" name="claim_amount" type="InputTextPrimitiveDouble" id="808968981">
+<field position="7" name="patientInfo_age" type="InputTextPrimitiveInteger" id="2005644113">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;amount (claim)quot;"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;age (patientInfo)quot;"/>
 <property name="readonly" value="false"/>
-<property name="outputBinding" value="claim/amount"/>
-<property name="fieldClass" value="double"/>
+<property name="outputBinding" value="patientInfo/age"/>
+<property name="fieldClass" value="int"/>
 </field>
-<field position="8" name="claim_id" type="InputText" id="1401725097">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;id (claim)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="claim/id"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="19" name="insuredInfo_zip" type="InputText" id="431349072">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;zip (insuredInfo)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="insuredInfo/zip"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="18" name="insuredInfo_state" type="InputText" id="1072683720">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;state (insuredInfo)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="insuredInfo/state"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="11" name="group" type="InputText" id="38929851">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;group (group)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="group"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="22" name="patientInfo_name" type="InputText" id="1634374017">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;name (patientInfo)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="patientInfo/name"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="26" name="providerInfo_name" type="InputText" id="789761913">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;name (providerInfo)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="providerInfo/name"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="27" name="providerInfo_state" type="InputText" id="623701568">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;state (providerInfo)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="providerInfo/state"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="24" name="providerInfo_address" type="InputText" id="112159838">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;address (providerInfo)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="providerInfo/address"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="31" name="service_dateOfService" type="InputDate" id="870437456">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;dateOfService (service)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="service/dateOfService"/>
-<property name="fieldClass" value="java.util.Date"/>
-</field>
-<field position="33" name="service_serviceType" type="InputText" id="1207431494">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;serviceType (service)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="service/serviceType"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="4" name="claim_assignment" type="InputText" id="875186333">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;assignment (claim)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="claim/assignment"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="9" name="claim_type" type="InputText" id="665739156">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;type (claim)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="claim/type"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="21" name="patientInfo_gender" type="InputText" id="28138775">
+<field position="8" name="patientInfo_gender" type="InputText" id="28138775">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;gender (patientInfo)quot;"/>
 <property name="readonly" value="false"/>
 <property name="outputBinding" value="patientInfo/gender"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="16" name="insuredInfo_gender" type="InputText" id="1418344566">
+<field position="6" name="patientInfo_name" type="InputText" id="1634374017">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;gender (insuredInfo)quot;"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;name (patientInfo)quot;"/>
 <property name="readonly" value="false"/>
-<property name="outputBinding" value="insuredInfo/gender"/>
+<property name="outputBinding" value="patientInfo/name"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="34" name="wsServiceResult" type="InputText" id="1715649151">
+<field position="9" name="patientInfo_relationShipToInsured" type="InputText" id="178507693">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;relationShipToInsured (patientInfo)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="patientInfo/relationShipToInsured"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="10" name="providerInfo_name" type="InputText" id="789761913">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;name (providerInfo)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="providerInfo/name"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="11" name="providerInfo_state" type="InputText" id="623701568">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;state (providerInfo)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="providerInfo/state"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="12" name="providerInfo_zip" type="InputText" id="1498693279">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;zip (providerInfo)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="providerInfo/zip"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="13" name="reviewgroup" type="InputText" id="851033640">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;reviewgroup (reviewgroup)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="reviewgroup"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="14" name="service_code" type="InputText" id="1303791609">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;code (service)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="service/code"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="15" name="service_dateOfService" type="InputDate" id="870437456">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;dateOfService (service)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="service/dateOfService"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="16" name="service_serviceAmount" type="InputTextPrimitiveDouble" id="823972887">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;serviceAmount (service)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="service/serviceAmount"/>
+<property name="fieldClass" value="double"/>
+</field>
+<field position="17" name="service_serviceType" type="InputText" id="1207431494">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;serviceType (service)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="service/serviceType"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="18" name="wsServiceResult" type="InputText" id="1715649151">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;wsServiceResult (wsServiceResult)quot;"/>
 <property name="readonly" value="false"/>
