@@ -13,7 +13,7 @@
 <property name="outputBinding" value="rClaimaddDocout"/>
 <property name="fieldClass" value="org.jbpm.document.Document"/>
 </field>
-<field position="13" name="assignment" type="InputText" id="1702082973">
+<field position="14" name="assignment" type="InputText" id="1702082973">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Do you want to re-assign quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -48,7 +48,7 @@
 <property name="outputBinding" value="rClaimOut/amount"/>
 <property name="fieldClass" value="double"/>
 </field>
-<field position="14" name="claim_assignment" type="InputText" id="1035861850">
+<field position="15" name="claim_assignment" type="InputText" id="1035861850">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Re-assign toquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -109,9 +109,9 @@
 <property name="outputBinding" value="rClaimDocout"/>
 <property name="fieldClass" value="org.jbpm.document.Document"/>
 </field>
-<field position="7" name="providerInfo_name" type="InputText" id="2010610707">
+<field position="8" name="providerInfo_name" type="InputText" id="2010610707">
 <property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
+<property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Provider Name quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -122,7 +122,7 @@
 <property name="outputBinding" value="rProviderOut/name"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="8" name="providerInfo_state" type="InputText" id="639373517">
+<field position="9" name="providerInfo_state" type="InputText" id="639373517">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Provider state quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -135,7 +135,7 @@
 <property name="outputBinding" value="rProviderOut/state"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="9" name="service_code" type="InputText" id="92424016">
+<field position="10" name="service_code" type="InputText" id="92424016">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;code (service)quot;"/>
 <property name="readonly" value="false"/>
@@ -143,7 +143,7 @@
 <property name="outputBinding" value="rServiceOut/code"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="11" name="service_dateOfService" type="InputDate" id="1546565948">
+<field position="12" name="service_dateOfService" type="InputDate" id="1546565948">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;dateOfService (service)quot;"/>
@@ -152,7 +152,7 @@
 <property name="outputBinding" value="rServiceOut/dateOfService"/>
 <property name="fieldClass" value="java.util.Date"/>
 </field>
-<field position="12" name="service_serviceAmount" type="InputTextPrimitiveDouble" id="345640998">
+<field position="13" name="service_serviceAmount" type="InputTextPrimitiveDouble" id="345640998">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;serviceAmount (service)quot;"/>
@@ -161,13 +161,26 @@
 <property name="outputBinding" value="rServiceOut/serviceAmount"/>
 <property name="fieldClass" value="double"/>
 </field>
-<field position="10" name="service_serviceType" type="InputText" id="1839933047">
+<field position="11" name="service_serviceType" type="InputText" id="1839933047">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;serviceType (service)quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="rServicein/serviceType"/>
 <property name="outputBinding" value="rServiceOut/serviceType"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="7" name="insuredInfo_name" type="InputText" id="1950153971">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Insured namequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="rInsuredIn/name"/>
+<property name="outputBinding" value="rInsuredOut/name"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="rAddClaimDoc" name="#A7E690" type="basicType" outId="rClaimaddDocout" value="org.jbpm.document.Document" id="addiotionDoc"/>
