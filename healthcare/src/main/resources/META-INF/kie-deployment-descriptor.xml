@@ -7,7 +7,7 @@
     <runtime-strategy>SINGLETON</runtime-strategy>
     <marshalling-strategies>
         <marshalling-strategy>
-            <resolver>mvel</resolver>
+            <resolver>reflection</resolver>
             <identifier>org.jbpm.document.marshalling.DocumentMarshallingStrategy</identifier>
             <parameters/>
         </marshalling-strategy>
