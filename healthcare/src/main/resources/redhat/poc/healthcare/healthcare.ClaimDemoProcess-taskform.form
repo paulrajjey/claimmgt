@@ -91,28 +91,15 @@
 </field>
 <field position="11" name="providerInfo_state" type="InputText" id="623701568">
 <property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
+<property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;state (providerInfo)quot;"/>
 <property name="readonly" value="false"/>
 <property name="outputBinding" value="providerInfo/state"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="12" name="providerInfo_zip" type="InputText" id="1498693279">
+<field position="12" name="service_code" type="InputText" id="1303791609">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;zip (providerInfo)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="providerInfo/zip"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="13" name="reviewgroup" type="InputText" id="851033640">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;reviewgroup (reviewgroup)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="reviewgroup"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="14" name="service_code" type="InputText" id="1303791609">
-<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;enquot;,quot;code (service)quot;"/>
 <property name="readonly" value="false"/>
 <property name="outputBinding" value="service/code"/>
@@ -120,30 +107,25 @@
 </field>
 <field position="15" name="service_dateOfService" type="InputDate" id="870437456">
 <property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;dateOfService (service)quot;"/>
 <property name="readonly" value="false"/>
 <property name="outputBinding" value="service/dateOfService"/>
 <property name="fieldClass" value="java.util.Date"/>
 </field>
-<field position="16" name="service_serviceAmount" type="InputTextPrimitiveDouble" id="823972887">
+<field position="14" name="service_serviceAmount" type="InputTextPrimitiveDouble" id="823972887">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;serviceAmount (service)quot;"/>
 <property name="readonly" value="false"/>
 <property name="outputBinding" value="service/serviceAmount"/>
 <property name="fieldClass" value="double"/>
 </field>
-<field position="17" name="service_serviceType" type="InputText" id="1207431494">
+<field position="13" name="service_serviceType" type="InputText" id="1207431494">
 <property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;serviceType (service)quot;"/>
 <property name="readonly" value="false"/>
 <property name="outputBinding" value="service/serviceType"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="18" name="wsServiceResult" type="InputText" id="1715649151">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;wsServiceResult (wsServiceResult)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="wsServiceResult"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="" name="#A7E690" type="basicType" outId="addiotionDoc" value="org.jbpm.document.Document" id="addiotionDoc"/>
